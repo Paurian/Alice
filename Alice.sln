@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alice", "Alice.csproj", "{14427AD9-40D8-4C25-917E-300E463D894A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliceConsole", "..\AliceConsole\AliceConsole.csproj", "{A34A18B6-95FC-45EB-9CA9-CAD926CE5254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14427AD9-40D8-4C25-917E-300E463D894A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14427AD9-40D8-4C25-917E-300E463D894A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14427AD9-40D8-4C25-917E-300E463D894A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14427AD9-40D8-4C25-917E-300E463D894A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34A18B6-95FC-45EB-9CA9-CAD926CE5254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34A18B6-95FC-45EB-9CA9-CAD926CE5254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34A18B6-95FC-45EB-9CA9-CAD926CE5254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34A18B6-95FC-45EB-9CA9-CAD926CE5254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
