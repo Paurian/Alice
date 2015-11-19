@@ -6,6 +6,8 @@ TODO:
 2. Add option (?) to pull all classes that implement IBookReader.
 
 For #2, look into using the following (as shown at http://stackoverflow.com/questions/9854900/instantiate-a-class-from-its-textual-name):
+
+
 private static IEnumerable<Type> GetDerivedTypesFor(Type baseType)
 {
     var assembly = Assembly.GetExecutingAssembly();
