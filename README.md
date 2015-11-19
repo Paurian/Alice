@@ -7,7 +7,7 @@ TODO:
 
 For #2, look into using the following (as shown at http://stackoverflow.com/questions/9854900/instantiate-a-class-from-its-textual-name):
 
-
+```
 private static IEnumerable<Type> GetDerivedTypesFor(Type baseType)
 {
     var assembly = Assembly.GetExecutingAssembly();
@@ -16,3 +16,4 @@ private static IEnumerable<Type> GetDerivedTypesFor(Type baseType)
         .Where(baseType.IsAssignableFrom)
         .Where(t => baseType != t);
 }
+```
